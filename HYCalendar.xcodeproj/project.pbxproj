@@ -13,6 +13,17 @@
 		D285F98A218FB473007DA114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D285F989218FB473007DA114 /* Assets.xcassets */; };
 		D285F98D218FB473007DA114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D285F98B218FB473007DA114 /* LaunchScreen.storyboard */; };
 		D285F990218FB473007DA114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D285F98F218FB473007DA114 /* main.m */; };
+		D285F99D218FBBF9007DA114 /* HYCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D285F99C218FBBF9007DA114 /* HYCalendarManager.m */; };
+		D285F9A0218FBC3D007DA114 /* HYCalendarHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D285F99F218FBC3D007DA114 /* HYCalendarHeaderModel.m */; };
+		D285F9A9219011DE007DA114 /* HYCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D285F9A7219011DE007DA114 /* HYCalendarCell.m */; };
+		D285F9AD21901BC8007DA114 /* HYCalendarCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D285F9AC21901BC8007DA114 /* HYCalendarCollectionReusableView.m */; };
+		D285F9C721902331007DA114 /* UIColor+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D285F9BB21902331007DA114 /* UIColor+HYCategory.m */; };
+		D285F9C821902331007DA114 /* UIView+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D285F9BC21902331007DA114 /* UIView+HYCategory.m */; };
+		D285F9E92191185F007DA114 /* HYTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D285F9E82191185F007DA114 /* HYTagListView.m */; };
+		D285F9ED219136D4007DA114 /* JPFPSStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = D285F9EC219136D3007DA114 /* JPFPSStatus.m */; };
+		D285F9F021916604007DA114 /* HYCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D285F9EF21916604007DA114 /* HYCalendarView.m */; };
+		D285F9F321918D93007DA114 /* UIViewController+MEEViewControllerCategiry.m in Sources */ = {isa = PBXBuildFile; fileRef = D285F9F221918D93007DA114 /* UIViewController+MEEViewControllerCategiry.m */; };
+		D285F9F6219191BD007DA114 /* HYPopoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D285F9F5219191BD007DA114 /* HYPopoverVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,29 @@
 		D285F98C218FB473007DA114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D285F98E218FB473007DA114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D285F98F218FB473007DA114 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D285F99B218FBBF9007DA114 /* HYCalendarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCalendarManager.h; sourceTree = "<group>"; };
+		D285F99C218FBBF9007DA114 /* HYCalendarManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCalendarManager.m; sourceTree = "<group>"; };
+		D285F99E218FBC3D007DA114 /* HYCalendarHeaderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCalendarHeaderModel.h; sourceTree = "<group>"; };
+		D285F99F218FBC3D007DA114 /* HYCalendarHeaderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCalendarHeaderModel.m; sourceTree = "<group>"; };
+		D285F9A5218FEDFF007DA114 /* HYCalendarHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCalendarHeader.h; sourceTree = "<group>"; };
+		D285F9A6219011DE007DA114 /* HYCalendarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCalendarCell.h; sourceTree = "<group>"; };
+		D285F9A7219011DE007DA114 /* HYCalendarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCalendarCell.m; sourceTree = "<group>"; };
+		D285F9AB21901BC8007DA114 /* HYCalendarCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCalendarCollectionReusableView.h; sourceTree = "<group>"; };
+		D285F9AC21901BC8007DA114 /* HYCalendarCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCalendarCollectionReusableView.m; sourceTree = "<group>"; };
+		D285F9BB21902331007DA114 /* UIColor+HYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HYCategory.m"; sourceTree = "<group>"; };
+		D285F9BC21902331007DA114 /* UIView+HYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HYCategory.m"; sourceTree = "<group>"; };
+		D285F9BD21902331007DA114 /* UIView+HYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HYCategory.h"; sourceTree = "<group>"; };
+		D285F9BE21902331007DA114 /* UIColor+HYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HYCategory.h"; sourceTree = "<group>"; };
+		D285F9E72191185F007DA114 /* HYTagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTagListView.h; sourceTree = "<group>"; };
+		D285F9E82191185F007DA114 /* HYTagListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTagListView.m; sourceTree = "<group>"; };
+		D285F9EB219136D3007DA114 /* JPFPSStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPFPSStatus.h; sourceTree = "<group>"; };
+		D285F9EC219136D3007DA114 /* JPFPSStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPFPSStatus.m; sourceTree = "<group>"; };
+		D285F9EE21916604007DA114 /* HYCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCalendarView.h; sourceTree = "<group>"; };
+		D285F9EF21916604007DA114 /* HYCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCalendarView.m; sourceTree = "<group>"; };
+		D285F9F121918D93007DA114 /* UIViewController+MEEViewControllerCategiry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MEEViewControllerCategiry.h"; sourceTree = "<group>"; };
+		D285F9F221918D93007DA114 /* UIViewController+MEEViewControllerCategiry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MEEViewControllerCategiry.m"; sourceTree = "<group>"; };
+		D285F9F4219191BD007DA114 /* HYPopoverVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYPopoverVC.h; sourceTree = "<group>"; };
+		D285F9F5219191BD007DA114 /* HYPopoverVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYPopoverVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +92,15 @@
 		D285F97F218FB472007DA114 /* HYCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				D285F9BA21902331007DA114 /* HYTool */,
+				D285F9EA219136D3007DA114 /* JPFPSStatus */,
+				D285F996218FB4C2007DA114 /* Calendar */,
 				D285F980218FB472007DA114 /* AppDelegate.h */,
 				D285F981218FB472007DA114 /* AppDelegate.m */,
 				D285F983218FB472007DA114 /* ViewController.h */,
 				D285F984218FB472007DA114 /* ViewController.m */,
+				D285F9F4219191BD007DA114 /* HYPopoverVC.h */,
+				D285F9F5219191BD007DA114 /* HYPopoverVC.m */,
 				D285F986218FB472007DA114 /* Main.storyboard */,
 				D285F989218FB473007DA114 /* Assets.xcassets */,
 				D285F98B218FB473007DA114 /* LaunchScreen.storyboard */,
@@ -69,6 +108,80 @@
 				D285F98F218FB473007DA114 /* main.m */,
 			);
 			path = HYCalendar;
+			sourceTree = "<group>";
+		};
+		D285F996218FB4C2007DA114 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				D285F9A5218FEDFF007DA114 /* HYCalendarHeader.h */,
+				D285F999218FB4C2007DA114 /* Common */,
+				D285F998218FB4C2007DA114 /* Cell */,
+				D285F99A218FB4C2007DA114 /* Model */,
+				D285F997218FB4C2007DA114 /* Other */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		D285F997218FB4C2007DA114 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D285F9E72191185F007DA114 /* HYTagListView.h */,
+				D285F9E82191185F007DA114 /* HYTagListView.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D285F998218FB4C2007DA114 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D285F9AB21901BC8007DA114 /* HYCalendarCollectionReusableView.h */,
+				D285F9AC21901BC8007DA114 /* HYCalendarCollectionReusableView.m */,
+				D285F9A6219011DE007DA114 /* HYCalendarCell.h */,
+				D285F9A7219011DE007DA114 /* HYCalendarCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D285F999218FB4C2007DA114 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D285F9EE21916604007DA114 /* HYCalendarView.h */,
+				D285F9EF21916604007DA114 /* HYCalendarView.m */,
+				D285F99B218FBBF9007DA114 /* HYCalendarManager.h */,
+				D285F99C218FBBF9007DA114 /* HYCalendarManager.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D285F99A218FB4C2007DA114 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D285F99E218FBC3D007DA114 /* HYCalendarHeaderModel.h */,
+				D285F99F218FBC3D007DA114 /* HYCalendarHeaderModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D285F9BA21902331007DA114 /* HYTool */ = {
+			isa = PBXGroup;
+			children = (
+				D285F9F121918D93007DA114 /* UIViewController+MEEViewControllerCategiry.h */,
+				D285F9F221918D93007DA114 /* UIViewController+MEEViewControllerCategiry.m */,
+				D285F9BB21902331007DA114 /* UIColor+HYCategory.m */,
+				D285F9BC21902331007DA114 /* UIView+HYCategory.m */,
+				D285F9BD21902331007DA114 /* UIView+HYCategory.h */,
+				D285F9BE21902331007DA114 /* UIColor+HYCategory.h */,
+			);
+			path = HYTool;
+			sourceTree = "<group>";
+		};
+		D285F9EA219136D3007DA114 /* JPFPSStatus */ = {
+			isa = PBXGroup;
+			children = (
+				D285F9EB219136D3007DA114 /* JPFPSStatus.h */,
+				D285F9EC219136D3007DA114 /* JPFPSStatus.m */,
+			);
+			path = JPFPSStatus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +254,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D285F99D218FBBF9007DA114 /* HYCalendarManager.m in Sources */,
+				D285F9C821902331007DA114 /* UIView+HYCategory.m in Sources */,
 				D285F985218FB472007DA114 /* ViewController.m in Sources */,
+				D285F9A9219011DE007DA114 /* HYCalendarCell.m in Sources */,
 				D285F990218FB473007DA114 /* main.m in Sources */,
+				D285F9F321918D93007DA114 /* UIViewController+MEEViewControllerCategiry.m in Sources */,
+				D285F9C721902331007DA114 /* UIColor+HYCategory.m in Sources */,
+				D285F9F6219191BD007DA114 /* HYPopoverVC.m in Sources */,
+				D285F9E92191185F007DA114 /* HYTagListView.m in Sources */,
+				D285F9F021916604007DA114 /* HYCalendarView.m in Sources */,
+				D285F9AD21901BC8007DA114 /* HYCalendarCollectionReusableView.m in Sources */,
+				D285F9A0218FBC3D007DA114 /* HYCalendarHeaderModel.m in Sources */,
+				D285F9ED219136D4007DA114 /* JPFPSStatus.m in Sources */,
 				D285F982218FB472007DA114 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +412,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53VRM8P8RX;
 				INFOPLIST_FILE = HYCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53VRM8P8RX;
 				INFOPLIST_FILE = HYCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
